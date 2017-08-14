@@ -1,21 +1,18 @@
 {
-  "name": "rust-wasm-webpack-tutorial",
-  "version": "0.1.0",
+  "name": "hello_world",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "webpack --progress",
     "serve": "http-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ianjsikes/rust-wasm-loader"
-  },
-  "author": "Ian J Sikes",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "http-server": "^0.10.0",
-    "rust-wasm-loader": "^0.1.1",
-    "webpack": "^3.0.0"
+    "rust-wasm-loader": "^0.1.2",
+    "webpack": "^3.5.4"
   }
 }

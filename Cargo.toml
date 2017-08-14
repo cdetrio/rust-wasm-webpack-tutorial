@@ -1,6 +1,11 @@
 [package]
-name = "rust-wasm-webpack-tutorial"
+name = "hello_world"
 version = "0.1.0"
-authors = ["Ian J Sikes <ianjsikes@gmail.com>"]
+authors = ["cdetrio <cdetrio@gmail.com>"]
 
 [dependencies]
+bn = { git = "https://github.com/paritytech/bn" }
+rand = "0.3"
+rustc-serialize = "0.3"
+num = "0.1"
+hex-slice = "0.1.0"
